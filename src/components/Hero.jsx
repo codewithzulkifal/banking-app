@@ -40,7 +40,7 @@ const Hero = () => {
       </div>
 
       <div className={`flex-1 flex flex-row mr-14  ${styles.flexCenter} md:my-0 my-10 `}>
-        <img src={robot} alt="billing" className=" w-full cursor-pointer scale-110 hover:scale-110 transition-all duration-500 " />
+        <img src={robot} alt="billing" className=" w-full cursor-pointer hover:scale-110 transition-all duration-500 " />
 
 
       </div>
