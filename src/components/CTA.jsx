@@ -24,7 +24,7 @@ const CTA = () => {
         Reach us direactly at our wesbite and send us an email below for detailed inquiries or support requests.
       </p>
       <input type="email" required name="email" id="email" value={text} onChange={handleChange}
-      onKeyPress={handleKeyPress} placeholder="E-mail" className=" w-1/4 rounded-lg 
+      onKeyPress={handleKeyPress} placeholder="E-mail" className=" w-full md:w-1/2 lg:w-1/3 rounded-lg 
       focus:outline-none outline-none p-2 mt-3  " />
 
     </div>
