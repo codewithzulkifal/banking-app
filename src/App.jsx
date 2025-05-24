@@ -1,5 +1,6 @@
 import styles from "./style";
 import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero, Crypt } from "./components";
+import Chatbot from "./components/ChatBot";
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -28,6 +29,7 @@ const App = () => (
         <Footer />
       </div>
     </div>
+    <Chatbot/>
   </div>
 );
 
