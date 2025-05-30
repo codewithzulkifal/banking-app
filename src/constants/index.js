@@ -58,7 +58,7 @@ export const feedback = [
       "Money makes your life easier. If you're lucky to have it, you're lucky.",
     name: "Steve Mark",
     title: "Founder & Leader",
-    img: 'mann.jpeg',
+    img: 'mann.jpg',
   },
   {
     id: "feedback-3",

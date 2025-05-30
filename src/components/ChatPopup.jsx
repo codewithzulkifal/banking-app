@@ -43,7 +43,7 @@ const ChatPopup = ({ onClose }) => {
   return (
     <div className="fixed bottom-20 right-5 w-[340px] bg-white text-black rounded-xl shadow-xl z-50 flex flex-col">
       <div className="bg-gradient-to-r from-purple-700 to-pink-600 from text-white p-3 rounded-t-xl flex justify-between">
-        <span>AlphaBank Chatbot</span>
+        <span>AlphaBank assistant</span>
         <button onClick={onClose}>✖</button>
       </div>
       <div className="p-3 h-[400px] overflow-y-auto space-y-2">
